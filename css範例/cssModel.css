@@ -1,0 +1,31 @@
+﻿body {
+    background-color: antiquewhite;
+}
+
+div {
+    width: 400px;
+    border: 5px solid red;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box4 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: lightblue;
+}
+
+.box6 {
+    position: absolute;
+    top: 570px;
+    left: 100px;
+    background-color: lightblue;
+}
+
+.box8 {
+    position: absolute;
+    top: 670px;
+    left: 500px;
+    background-color: lightblue;
+}

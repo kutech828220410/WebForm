@@ -1,0 +1,24 @@
+﻿body
+{
+    background-color:antiquewhite;
+}
+.container{
+    background-color:blue;
+    padding:10px;
+    color:black;
+
+    /*格線排版*/
+    display:grid;
+    /*建立欄位*/
+    grid-template-columns:auto auto auto;
+    /*調整列高*/
+    grid-template-rows:80px 200px 100px;/*依序調整列高*/
+    /*調整格子間距*/
+    grid-gap:10px 30px;/*列距 行距*/
+}
+.container>div{
+    background-color:yellow;
+    padding:20px 0;
+    font-size:30px;
+    text-align:center;
+}

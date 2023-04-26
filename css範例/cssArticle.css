@@ -1,0 +1,31 @@
+﻿body
+{
+}
+h1
+{
+    background-color:aquamarine;
+    color:blue;
+    text-align:center;
+    font-size:50px
+}
+h2
+{
+    background-color: yellow;
+    color:brown;
+    text-shadow:3px 3px 3px black;
+}
+p
+{
+    color:teal;
+    font-size:20px;
+    font-family:標楷體;
+    word-spacing:20px;
+    letter-spacing:10px;
+}
+div 
+{
+    column-count:2;
+    column-gap:50px;
+    column-rule:5px solid gray;
+
+}

@@ -1,0 +1,27 @@
+﻿body
+{
+    background-color:antiquewhite;
+}
+.flex>div{
+    background-color:chartreuse;
+    width:100px;
+    line-height:75px;
+    margin:10px;
+    text-align:center;
+    font-size:20px;
+}
+.flex {
+    display: flex;
+    background-color: brown;
+    /*Column變水平排列*/
+    flex-direction:row;
+    /*Column變垂直排列*/
+    /*flex-direction:column-reverse;*/
+
+    /*置中*/
+    justify-content:center;
+    align-items:center;
+
+    /*如果很多div,自動排列*/
+    flex-wrap:wrap;
+}

@@ -1,0 +1,20 @@
+﻿/*CCS編碼格式--選擇器{屬性:值}*/
+body
+{
+    background-color:antiquewhite;
+}
+h1
+{
+    color:blue;
+    
+    font-size:50px;
+    font-weight:bolder;
+    text-align:center;
+    text-decoration:underline;
+    font-style:italic;
+}
+p
+{
+    color:brown;
+    font-size:30px;
+}

@@ -1,0 +1,19 @@
+﻿body
+{
+    background-color:antiquewhite;
+}
+.i{
+    display:inline;
+    background-color:lawngreen;
+    height:100px;
+}
+.b{
+    display:block;
+    background-color:hotpink;
+    height:100px;
+}
+.ib{
+    display:inline-block;
+    background-color:yellow;
+    height:100px;
+}
